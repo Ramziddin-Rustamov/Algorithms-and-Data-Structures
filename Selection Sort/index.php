@@ -15,6 +15,7 @@ function selectionSort($array){
             }
         }
         if($minIndex != $i){
+            // temperory
              $temp = $array[$i];
              $array[$i] = $array[$minIndex];
              $array[$minIndex] = $temp;
